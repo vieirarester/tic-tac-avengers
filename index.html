@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Tic Tac Avengers</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <h1 class="titulo"> Tic-Tac-Avengers </h1>
+
+    <div id="popUp" class="popUp">
+        <div class="div-popUp">
+            <span class="fechar" id="fechar">&times;</span>
+            <p id="mensagem"></p>
+        </div>
+    </div>
+
+    <div class="tabuleiro" id="tabuleiro">
+
+        <table class="tabela">
+            <tr>
+                <td>
+                    <div class="celula" id="c1" onclick="fazerJogada(c1)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c2" onclick="fazerJogada(c2)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c3" onclick="fazerJogada(c3)"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="celula" id="c4" onclick="fazerJogada(c4)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c5" onclick="fazerJogada(c5)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c6" onclick="fazerJogada(c6)"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="celula" id="c7" onclick="fazerJogada(c7)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c8" onclick="fazerJogada(c8)"></div>
+                </td>
+                <td>
+                    <div class="celula" id="c9" onclick="fazerJogada(c9)"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p> Desenvolvido por <a href="https://github.com/vieirarester" target="_blank">@vieirarester</a> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
