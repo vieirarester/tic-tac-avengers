@@ -18,7 +18,7 @@ function iniciarJogo() {
     function fazerJogada(celula) {
         if (!celula.querySelector("img")) {
             const icon = document.createElement("img");
-            icon.src = jogadorAtual === jogadorX ? "../icons/homem-ferro.png" : "../icons/capitao-america.png";
+            icon.src = jogadorAtual === jogadorX ? "icons/homem-ferro.png" : "icons/capitao-america.png";
             icon.alt = jogadorAtual === jogadorX ? "Homem de Ferro" : "Capitão América";
             celula.appendChild(icon);
 
